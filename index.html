@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>漂亮的静态网页</title>
+    <title>My Colorful Website</title>
     <style>
         body {
+            background-color: #f1f1f1;
             font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
         }
 
         header {
             background-color: #333;
-            padding: 20px;
             color: #fff;
+            padding: 20px;
+            text-align: center;
         }
 
         h1 {
             margin: 0;
         }
 
-        main {
-            max-width: 960px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
         }
 
         section {
-            margin-bottom: 20px;
-            padding: 20px;
             background-color: #fff;
-            border-radius: 5px;
-        }
-
-        h2 {
-            color: #333;
-            margin-top: 0;
-        }
-
-        p {
-            line-height: 1.5;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
         }
 
         footer {
             background-color: #333;
-            padding: 20px;
             color: #fff;
+            padding: 20px;
             text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>漂亮的静态网页</h1>
+        <h1>Welcome to My Colorful Website</h1>
     </header>
-    
-    <main>
-        <section>
-            <h2>欢迎来到我们的网页</h2>
-            <p>这是一个漂亮的静态网页示例，演示了一些最佳实践和技巧。</p>
-            <img src="example-image.jpg" alt="示例图片">
-        </section>
-
-        <section>
-            <h2>为什么选择我们</h2>
-            <p>我们的团队拥有经验丰富的设计师和开发人员，致力于为客户提供优质的网页设计和开发服务。</p>
-        </section>
-
-        <section>
-            <h2>我们的服务</h2>
-            <p>我们提供创意设计、响应式网页开发和用户体验咨询等一系列服务。</p>
-        </section>
-    </main>
-
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet mauris lobortis, condimentum augue id, volutpat est. Nullam dapibus odio nec ipsum feugiat, et consequat nunc rhoncus. Morbi fringilla, nulla at fermentum lobortis, mi leo vestibulum dolor, eu gravida erat enim at leo. Suspendisse at nisi dictum, rhoncus turpis id, vestibulum libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur gravida fringilla felis, nec lobortis diam congue eget.</p>
+        <a href="#" class="button">Learn More</a>
+    </section>
     <footer>
-        <p>&copy; 2021 漂亮的静态网页. All rights reserved.</p>
+        <p>&copy; 2021 My Colorful Website. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
